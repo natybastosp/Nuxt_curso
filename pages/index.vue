@@ -1,6 +1,15 @@
 <template>
   <div>
-    <h2>Home</h2>
+    <header>
+      <nav>
+        <NuxtLink to="/">Nuxt Dojo</NuxtLink>
+        <ul>
+          <li><NuxtLink to="/">Home</NuxtLink></li>
+          <li><NuxtLink to="/about">About</NuxtLink></li>
+          <li><NuxtLink to="/products">Products</NuxtLink></li>
+        </ul>
+      </nav>
+    </header>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
       corrupti possimus ipsam quae nostrum hic dicta officiis corporis commodi
