@@ -1,9 +1,13 @@
 <template>
   <div>
-    <p>Get In Loser, We're Going Shopping!!</p>
+    <p>Products</p>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+definePageMeta({
+  layout: "products",
+});
+</script>
 
 <style scoped></style>
